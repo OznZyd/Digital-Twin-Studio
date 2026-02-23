@@ -1,1 +1,15 @@
 .env
+venv/
+__pycache__/
+.DS_Store
+.vscode/
+
+# Big Model Files
+models/
+gfpgan/weights/
+*.pth
+*.onnx
+
+# Outputs
+output/
+data/
